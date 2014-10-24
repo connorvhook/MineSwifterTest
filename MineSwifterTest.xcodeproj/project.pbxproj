@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7828AC919F9DDF200417FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7828AC819F9DDF200417FD8 /* AppDelegate.swift */; };
+		D7828ACB19F9DDF200417FD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7828ACA19F9DDF200417FD8 /* ViewController.swift */; };
+		D7828ACE19F9DDF200417FD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7828ACC19F9DDF200417FD8 /* Main.storyboard */; };
+		D7828AD019F9DDF200417FD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7828ACF19F9DDF200417FD8 /* Images.xcassets */; };
+		D7828AD319F9DDF200417FD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7828AD119F9DDF200417FD8 /* LaunchScreen.xib */; };
+		D7828ADF19F9DDF200417FD8 /* MineSwifterTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7828ADE19F9DDF200417FD8 /* MineSwifterTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7828AD919F9DDF200417FD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7828ABB19F9DDF200417FD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7828AC219F9DDF200417FD8;
+			remoteInfo = MineSwifterTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7828AC319F9DDF200417FD8 /* MineSwifterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSwifterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7828AC719F9DDF200417FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7828AC819F9DDF200417FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7828ACA19F9DDF200417FD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7828ACD19F9DDF200417FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7828ACF19F9DDF200417FD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7828AD219F9DDF200417FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D7828AD819F9DDF200417FD8 /* MineSwifterTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSwifterTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7828ADD19F9DDF200417FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7828ADE19F9DDF200417FD8 /* MineSwifterTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSwifterTestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7828AC019F9DDF200417FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7828AD519F9DDF200417FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7828ABA19F9DDF200417FD8 = {
+			isa = PBXGroup;
+			children = (
+				D7828AC519F9DDF200417FD8 /* MineSwifterTest */,
+				D7828ADB19F9DDF200417FD8 /* MineSwifterTestTests */,
+				D7828AC419F9DDF200417FD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7828AC419F9DDF200417FD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7828AC319F9DDF200417FD8 /* MineSwifterTest.app */,
+				D7828AD819F9DDF200417FD8 /* MineSwifterTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7828AC519F9DDF200417FD8 /* MineSwifterTest */ = {
+			isa = PBXGroup;
+			children = (
+				D7828AC819F9DDF200417FD8 /* AppDelegate.swift */,
+				D7828ACA19F9DDF200417FD8 /* ViewController.swift */,
+				D7828ACC19F9DDF200417FD8 /* Main.storyboard */,
+				D7828ACF19F9DDF200417FD8 /* Images.xcassets */,
+				D7828AD119F9DDF200417FD8 /* LaunchScreen.xib */,
+				D7828AC619F9DDF200417FD8 /* Supporting Files */,
+			);
+			path = MineSwifterTest;
+			sourceTree = "<group>";
+		};
+		D7828AC619F9DDF200417FD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7828AC719F9DDF200417FD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7828ADB19F9DDF200417FD8 /* MineSwifterTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7828ADE19F9DDF200417FD8 /* MineSwifterTestTests.swift */,
+				D7828ADC19F9DDF200417FD8 /* Supporting Files */,
+			);
+			path = MineSwifterTestTests;
+			sourceTree = "<group>";
+		};
+		D7828ADC19F9DDF200417FD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7828ADD19F9DDF200417FD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7828AC219F9DDF200417FD8 /* MineSwifterTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7828AE219F9DDF200417FD8 /* Build configuration list for PBXNativeTarget "MineSwifterTest" */;
+			buildPhases = (
+				D7828ABF19F9DDF200417FD8 /* Sources */,
+				D7828AC019F9DDF200417FD8 /* Frameworks */,
+				D7828AC119F9DDF200417FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineSwifterTest;
+			productName = MineSwifterTest;
+			productReference = D7828AC319F9DDF200417FD8 /* MineSwifterTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7828AD719F9DDF200417FD8 /* MineSwifterTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7828AE519F9DDF200417FD8 /* Build configuration list for PBXNativeTarget "MineSwifterTestTests" */;
+			buildPhases = (
+				D7828AD419F9DDF200417FD8 /* Sources */,
+				D7828AD519F9DDF200417FD8 /* Frameworks */,
+				D7828AD619F9DDF200417FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7828ADA19F9DDF200417FD8 /* PBXTargetDependency */,
+			);
+			name = MineSwifterTestTests;
+			productName = MineSwifterTestTests;
+			productReference = D7828AD819F9DDF200417FD8 /* MineSwifterTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7828ABB19F9DDF200417FD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Connor Ross";
+				TargetAttributes = {
+					D7828AC219F9DDF200417FD8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D7828AD719F9DDF200417FD8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D7828AC219F9DDF200417FD8;
+					};
+				};
+			};
+			buildConfigurationList = D7828ABE19F9DDF200417FD8 /* Build configuration list for PBXProject "MineSwifterTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7828ABA19F9DDF200417FD8;
+			productRefGroup = D7828AC419F9DDF200417FD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7828AC219F9DDF200417FD8 /* MineSwifterTest */,
+				D7828AD719F9DDF200417FD8 /* MineSwifterTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7828AC119F9DDF200417FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7828ACE19F9DDF200417FD8 /* Main.storyboard in Resources */,
+				D7828AD319F9DDF200417FD8 /* LaunchScreen.xib in Resources */,
+				D7828AD019F9DDF200417FD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7828AD619F9DDF200417FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7828ABF19F9DDF200417FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7828ACB19F9DDF200417FD8 /* ViewController.swift in Sources */,
+				D7828AC919F9DDF200417FD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7828AD419F9DDF200417FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7828ADF19F9DDF200417FD8 /* MineSwifterTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7828ADA19F9DDF200417FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7828AC219F9DDF200417FD8 /* MineSwifterTest */;
+			targetProxy = D7828AD919F9DDF200417FD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7828ACC19F9DDF200417FD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7828ACD19F9DDF200417FD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7828AD119F9DDF200417FD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7828AD219F9DDF200417FD8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7828AE019F9DDF200417FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7828AE119F9DDF200417FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7828AE319F9DDF200417FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MineSwifterTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7828AE419F9DDF200417FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MineSwifterTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7828AE619F9DDF200417FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MineSwifterTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineSwifterTest.app/MineSwifterTest";
+			};
+			name = Debug;
+		};
+		D7828AE719F9DDF200417FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MineSwifterTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineSwifterTest.app/MineSwifterTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7828ABE19F9DDF200417FD8 /* Build configuration list for PBXProject "MineSwifterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7828AE019F9DDF200417FD8 /* Debug */,
+				D7828AE119F9DDF200417FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7828AE219F9DDF200417FD8 /* Build configuration list for PBXNativeTarget "MineSwifterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7828AE319F9DDF200417FD8 /* Debug */,
+				D7828AE419F9DDF200417FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7828AE519F9DDF200417FD8 /* Build configuration list for PBXNativeTarget "MineSwifterTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7828AE619F9DDF200417FD8 /* Debug */,
+				D7828AE719F9DDF200417FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7828ABB19F9DDF200417FD8 /* Project object */;
+}

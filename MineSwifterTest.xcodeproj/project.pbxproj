@@ -13,6 +13,8 @@
 		D7828AD019F9DDF200417FD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7828ACF19F9DDF200417FD8 /* Images.xcassets */; };
 		D7828AD319F9DDF200417FD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7828AD119F9DDF200417FD8 /* LaunchScreen.xib */; };
 		D7828ADF19F9DDF200417FD8 /* MineSwifterTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7828ADE19F9DDF200417FD8 /* MineSwifterTestTests.swift */; };
+		D7828AE919F9EAF900417FD8 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7828AE819F9EAF900417FD8 /* Square.swift */; };
+		D7828AEB19F9EB5800417FD8 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7828AEA19F9EB5800417FD8 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D7828AD819F9DDF200417FD8 /* MineSwifterTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSwifterTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7828ADD19F9DDF200417FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7828ADE19F9DDF200417FD8 /* MineSwifterTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSwifterTestTests.swift; sourceTree = "<group>"; };
+		D7828AE819F9EAF900417FD8 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		D7828AEA19F9EB5800417FD8 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				D7828AC819F9DDF200417FD8 /* AppDelegate.swift */,
 				D7828ACA19F9DDF200417FD8 /* ViewController.swift */,
+				D7828AE819F9EAF900417FD8 /* Square.swift */,
+				D7828AEA19F9EB5800417FD8 /* Board.swift */,
 				D7828ACC19F9DDF200417FD8 /* Main.storyboard */,
 				D7828ACF19F9DDF200417FD8 /* Images.xcassets */,
 				D7828AD119F9DDF200417FD8 /* LaunchScreen.xib */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7828AE919F9EAF900417FD8 /* Square.swift in Sources */,
 				D7828ACB19F9DDF200417FD8 /* ViewController.swift in Sources */,
+				D7828AEB19F9EB5800417FD8 /* Board.swift in Sources */,
 				D7828AC919F9DDF200417FD8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				D7828AE419F9DDF200417FD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7828AE519F9DDF200417FD8 /* Build configuration list for PBXNativeTarget "MineSwifterTestTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				D7828AE719F9DDF200417FD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

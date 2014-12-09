@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var boardView: UIView!
+    @IBOutlet weak var movesLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +22,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func newGamePressed() {
+        println("new game");
     }
 
 
